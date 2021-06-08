@@ -1,0 +1,20 @@
+title: Mathematical methods in solid mechanics
+description: >-
+  The course is devoted Laplace Transform, Fourier Transform,  Fourier series
+  and its applications to solid mechanics. I am going to do 23-24 lessons. Each
+  lesson will be ended practical tasks and next one will begin from their
+  solutions.
+template:
+  repo: mathematical-methods-in-solid-mechanics-template
+  name: mathematical-methods-in-solid-mechanics
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
